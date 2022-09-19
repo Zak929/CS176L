@@ -23,6 +23,7 @@ public class HousePainting {
 	double doorsLength = sc.nextDouble();
 	System.out.print("Please enter width of doors in feet: ");
 	double doorsWidth = sc.nextDouble();
+	sc.close();
 	//Calculate 
 	double houseTrianSides = (houseLength*houseWidth) + 0.5*(houseLength*(houseHeight-houseWidth));
 	houseTrianSides = houseTrianSides*2;
